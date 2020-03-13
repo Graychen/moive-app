@@ -11,12 +11,12 @@ class PdTabBar extends StatelessWidget {
       //'refresh': HomePage.refresh,
     },
     {
-      'title': Text('发布'),
-      'icon': Icon(Icons.add),
+      'title': Text('评论'),
+      'icon': Icon(Icons.message),
       //'builder': (BuildContext context) => PublishPage(),
     },
     {
-      'title': Text('我的'),
+      'title': Text('个人'),
       'icon': Icon(Icons.account_circle),
       //'builder': (BuildContext context) => MePage(),
     },
